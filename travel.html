@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>Travel in Japan</title>
+	<link rel="stylesheet" href="index-style.css" type="text/css">
+	<link rel="stylesheet" href="travel-style.css" type="text/css">
+</head>
+<body>
+    <div id="wrapper">
+
+		<!--Top-->
+		<div id="header1">
+			<nav class="container">
+				<!--logo-->
+				<a href="" id="logo">
+					<img src="images/logo.png" alt=""><!--はクリックできるように、a属性使わないと-->
+				</a>
+				<!--menu, unordered list-->
+				<!-- ul#main-menu>li*5>a -->
+				<ul id="menu">
+					<!--Click可リスト=> a属性-->
+					<li><a href="index.html">はじめに</a></li>
+					<li><a id="tab" href="travel.html">旅行</a>
+						<ul class="sub-menu">
+							<li><a href="kansai.html">関西</a></li>
+							<li><a href="kanto.html">関東</a></li>
+							<li><a href="tohoku.html">東北</a></li>
+						</ul>
+					</li>
+					<li><a id="tab" href="articles.html">プログラミン</a>
+						<ul class="sub-menu">
+							<li><a href="ai.html">AI</a></li>
+							<li><a href="java.html">Java</a></li>
+							<li><a href="htmlcss.html">HTML&CSS</a></li>
+						</ul>
+					</li>
+					<li><a id="tab" href="japanese.html">日本語学ぼう</a>
+							<ul class="sub-menu">
+								<li><a id="tab_tab"href="kaiwa.html">毎日の日本語</a>
+									<ul class="sub-menu">
+										<li><a href="communication.html">日常会話</a></li>
+										<li><a href="baitocommunication.html">アルバイト会話</a></li>
+										<li><a href="interview.html">面接</a></li>
+										<li><a href="businesscommunication.html">ビジネス会話</a></li>
+									</ul>
+								</li>
+								<li><a id="tab_tab" href="jlpt.html">JLPT</a>
+									<ul class="sub-menu">
+										<li><a href="basic.html">N5-N4</a></li>
+										<li><a href="traing.html">N3-N2</a></li>
+										<li><a href="master.html">N1</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					<li><a href="supportlife.html">日本生活サポート</a></li>
+
+				</ul>
+
+			</nav>
+    		<div id="photolink2">
+       			<p>日本で色んなところへ</p>
+    		</div>
+		</div>
+    	<div id="main-list">
+        	<div id="intro2"><p>Travel list</p></div>
+        	<table border="1">
+				<!-- tr>th*3 -->
+				<tr>
+					<th colspan="2">地方</th>
+					<th>人気なスポット</th>
+					<th>おススメの季節</th>
+				</tr>
+				<!-- tr*3>td*4 -->
+				<tr>
+					<td><a href="kantou.html">関東</a></td>
+					<td><a href="kantou.html"><img src="images/fujisan.jpg" alt="fujisan" width="230px"></a></td>
+					<td>富士山、</td>
+					<td>秋、冬</td>
+				</tr>
+				<tr>
+					<td><a href="kansai.html">関東</a></td>
+					<td><a href="kansai.html"><img src="images/kyoto2.jpg" alt="kiyomizutera" width="230px" height="200px"></a></td>
+					<td>
+						<p>大阪（大阪城）</p>
+						<p>京都（清水寺、祇園、嵐山、伏見稲荷大社、金閣寺、貴船神社、天橋立、東映太秦映画）</p>
+						<p>奈良（奈良公園）</p>
+						<p>神戸（神戸港、神戸ポートタワー、生田神社、六甲山、南京町）</p>
+					</td>
+					<td>春、秋、冬</td>
+				</tr>
+				<tr>
+					<td><a href="tohoku.html">東北ー北海道</a></td>
+					<td><a href="tohoku.html"><img src="images/FOX-VILLAGE.jpg" alt="Fox village winter" width="230px"></a></td>
+					<td>銀山温泉、蔵王キツネ村、北海道</td>
+					<td>冬、夏</td>
+				</tr>
+			</table>  
+    	</div>
+	</div>
+    
+</body>
+<footer>
+    <p><small>
+        Copyright &copy; 2022 Nguyen Thuy Linh(22CA0209), All rights reserved.
+        </small>
+    </p>
+</footer>
+</html>

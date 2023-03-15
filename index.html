@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>Travel Code in Japan</title>
+	<link rel="stylesheet" href="index-style.css" type="text/css">
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v14.0" nonce="AZkj45lw"></script>
+	
+</head>
+
+<!--Websiteの内容-->
+<body>
+	<!--div属性は空いボクスみたいなもの-->
+	<div id="wrapper">
+		<!--Top-->
+		<div id="header1">
+			<nav class="container">
+				<!--logo-->
+				<a href="" id="logo">
+					<img src="images/logo.png" alt=""><!--はクリックできるように、a属性使わないと-->
+				</a>
+				<!--menu, unordered list-->
+				<!-- ul#main-menu>li*5>a -->
+				<ul id="menu">
+					<!--Click可リスト=> a属性-->
+					<li><a href="index.html">はじめに</a></li>
+					<li><a id="tab" href="articles.html">プログラミング</a>
+						<ul class="sub-menu">
+							<li><a href="ai.html">AI</a></li>
+							<li><a href="java.html">Java</a></li>
+							<li><a href="htmlcss.html">HTML&CSS</a></li>
+						</ul>
+					</li>
+					<li><a id="tab" href="travel.html">旅行</a>
+						<ul class="sub-menu">
+							<li><a href="kansai.html">関西</a></li>
+							<li><a href="kanto.html">関東</a></li>
+							<li><a href="tohoku.html">東北</a></li>
+							<li><a href="tohoku.html">北海道</a></li>
+						</ul>
+					</li>
+					<li><a id="tab" href="japanese.html">日本語学ぼう</a>
+							<ul class="sub-menu">
+								<li><a id="tab_tab"href="kaiwa.html">毎日の日本語</a>
+									<ul class="sub-menu">
+										<li><a href="communication.html">日常会話</a></li>
+										<li><a href="baitocommunication.html">アルバイト会話</a></li>
+										<li><a href="interview.html">面接</a></li>
+										<li><a href="businesscommunication.html">ビジネス会話</a></li>
+									</ul>
+								</li>
+								<li><a id="tab_tab" href="jlpt.html">JLPT</a>
+									<ul class="sub-menu">
+										<li><a href="basic.html">N5-N4</a></li>
+										<li><a href="traing.html">N3-N2</a></li>
+										<li><a href="master.html">N1</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					<li><a href="supportlife.html">日本生活サポート</a></li>
+
+				</ul>
+			</nav>
+			<div id="quote">
+				<h1>My Journey in Japan</h1>
+				<p>千里の道も 一歩から</p>
+			</div>
+		</div>
+
+		<!-- content -->
+		<section class="navigation">
+			<ul>
+				<li><a data-event="togglePage" href="#top">- Top</a></li>
+				<li><a data-event="togglePage" href="#about">- About</a></li>
+				<li><a data-event="togglePage" href="#mystory">- My Story</a></li>
+				<li><a href="#articles">- Articles</a></li>
+				<li><a data-event="togglePage" href="supportlife.html">- Contact</a></li>
+			</ul>
+		</section>
+		<div id="content">
+			<!-- intro -->
+			<h1 id="about">About</h1>
+			<img src="images/avatar.jpg" alt="avatar" width="300">
+			<div id="intro">
+				<h3>私はグエン・トゥイ・リンとです。「Hanoi University of Public Health」の出身です。現在、日本電子専門学校の留学として
+					AIシステムを専攻しています。
+				</h3>
+				<ol>
+					<li>氏名: グエン　トゥイ　リン</li>
+					<li>漢字氏名: <ruby>鈴<rp></rp><rt>すず</rt>(SUZU)<rp></rp></ruby></li>
+					<li>生年月日: 03/10/1997</li>
+					<li>国籍: ベトナム</li>
+					<li>職業: 留学生</li>
+					<li>住所: 東京</li>
+					<li><a href="tel:07083896313">070-8389-6313</a></li>
+					<li><a href="mailto:22ca0209@jec.ac.jp">linhnguyenthuy310@gmail.com</a></li>
+				</ol>
+			</div>
+			<!-- main content -->
+			<!-- スキルセット -->
+			
+				<h1>My Skills</h1>
+				<div id="skill">
+					<table>
+						<tr id="title" colspan="2">
+							<td>フォントエンド</td>
+						</tr>
+						<tr>
+							<td>HTML5</td>
+							<td>★★★☆☆</td>
+						</tr>
+						<tr>
+							<td>CSS3</td>
+							<td>★★★☆☆</td>
+						</tr>
+						<tr>
+							<td>JavaScript</td>
+							<td>★★★☆☆</td>
+						</tr>
+						<tr id="title" colspan="2">
+							<td>バックエンド</td>
+						</tr>
+						<tr>
+							<td>Java</td>
+							<td>★★★☆☆</td>
+						</tr>
+						<tr>
+							<td>Python</td>
+							<td>★★★☆☆</td>
+						</tr>	
+						<tr>
+							<td>SQL</td>
+							<td>★★★☆☆</td>
+						</tr>		
+						<tr id="title" colspan="2">
+							<td>他</td>
+						</tr>				
+						<tr>
+							<td> Microsoft Office</td>
+							<td>★★★★★</td>
+						</tr>
+						<tr>
+							<td>Photoshop</td>
+							<td>★★★☆☆</td>
+						</tr>
+						<tr>
+							<td>Create Video</td>
+							<td>★★★☆☆</td>
+						</tr>
+						<tr>
+							<td>Japanese</td>
+							<td>★★★★☆</td>
+						</tr>
+						<tr>
+							<td>English</td>
+							<td>★★★☆☆</td>
+						</tr>
+					</table>
+	
+			</div>
+
+			<h1 id="mystory">My Story</h1>
+			<div class="main-content" id="index">
+				<h2>ベトナムの道のり</h2>
+				<h3><strong>やりがいのある仕事を探す16年間</strong></h3>
+				<p>
+				若い人皆さんのように、私は高校まで12年間一所懸命勉強して頑張りました。
+				私は周りの人のお手伝いをすることが好きで、医科大学に入りました。
+				<blockquote>
+					私の専門は医療問題の研究です。医者になることができないですが, 研究実験と医療知識は身に入れる
+					<br>(例: マスク着用実情とコロナ感染者数の関係をデータ収集・分析)</br>
+				</blockquote>
+
+				学生時代、色々な活動に参加しました。
+				
+				<p id="photoshop-sub">①English Club</p>
+				<div id="photoshop">
+					<img src="images/English club.jpg" height="300">
+					<img src="images/English Club2.jpg" height="300">
+				</div>		
+				<p id="photoshop-sub">➁「糖尿病予防のプロパガンダソング」で「国民健康創意工夫全国大会」3位入賞。</p>
+				<div id="photoshop">
+					<img src="images/Contest.jpg" height="400">
+				</div>
+				<p id="photoshop-sub">③障がい者支援ボランティア活動</p>
+				<div id="photoshop">
+					<img src="images/Volunteer.jpg" height="400">
+					<img src="images/Volunteer (2).jpg" height="400">
+				</div>
+				<p id="photoshop-sub">④Japanese Club</p>
+				<div id="photoshop">
+					<img src="images/Japanese Club.jpg" height="400">
+				</div>
+
+				<h4>それ以外</h4>
+				<p>動画、ハンドブック、Fanpageなども独学してチャレンジしました。</p>
+				<!-- video -->
+				<div id="video">
+					<iframe width="360" height="200" src="https://www.youtube.com/embed/9dvnUK6R2yw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					
+					<iframe width="360" height="200" src="https://www.youtube.com/embed/pSSHoUuxXZ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					
+				</div>
+				<div id="subcript">
+					<p>Proshow Produceで作成したVIDEO！！！</p>	
+					<p>Adobe After Effectで作成したVIDEO</p>
+				</div>
+
+				<!-- fanpage -->
+				<div id="fanpage">
+					<div class="fb-page" data-href="https://www.facebook.com/H&#x1ecd;c-v&#xe0;-&#x103;n-ti&#x1ebf;ng-Nh&#x1ead;t-c&#xf9;ng-Rin-chan_Learning-and-Eating-Japanese-110577207393217/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/H&#x1ecd;c-v&#xe0;-&#x103;n-ti&#x1ebf;ng-Nh&#x1ead;t-c&#xf9;ng-Rin-chan_Learning-and-Eating-Japanese-110577207393217/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/H&#x1ecd;c-v&#xe0;-&#x103;n-ti&#x1ebf;ng-Nh&#x1ead;t-c&#xf9;ng-Rin-chan_Learning-and-Eating-Japanese-110577207393217/">Học và ăn tiếng Nhật cùng Rin chan_Learning and Eating Japanese</a></blockquote></div>
+					<p>日本語を学ぶためのFanpageを管理中</p>
+				</div>
+				<h2>日本で学ぶことを決めた理由は</h2>
+				<p>日本で学ぶことを決めた理由は、日本が他の国と比べて、自分の目標の実現、将来の進路、安全な暮らし、人間関係を考えると最適な国だからです。</p>
+				<p>はじめに、将来は医療業界でITエンジニアになりたいと思い、日本での勉強を選びました。私はベトナム公衆衛生大学の出身です。4年間医療を学んだり、ベトナム及び世界の医療実情を見たり、研究したりしました。そのうちに、現在の症状がますます複雑化して、お医者さんを一人にして負担するのは大変だと思います。21世紀から, 米国、中国、日本などの先進国だけでなく、ベトナムや東南アジア諸国などの発展途上国も徐々にアーティフシャルインテリジェンスを医療に応用し、国の医療システムへの負担を軽減しています。しかし、先進国と比較して、ベトナムでは、医療と情報技術の両立のエキスパートがまだ不足しています。そこで、先進国から学んだ知識を取り入れて、母国の医療制度を発展させ、改善していきたいと思っています。</p>
+				<p>日本は医療システムへの負担を軽減するために、介護ロボット、AI検温システム、病気予測AIシステム、また医療情報管理システムなど、多くの技術を生み出してきました。また、日本では、医療システムも情報システムも人々の生活を支えるものとして発展しており、それらについても日本で学びたいと考えました。</p>
+				<p>日本以外でも、アメリカや中国などもは理想的な留学先ではないかと考えましたが、私は日本の文化と日本人の性格に興味があり、安全な暮らしを送りたいので、絶対に日本で留学すると決めました。日本人の考え方と暮らし方は他の国が学ぶべきことだとよく言われています。規則を守ること、仕事に責任を持つこと、他の人のことを考えながら生きること、それらをは学びたいと思っています。</p>
+				<p>日本にでの留学しては2年間が経ちました。今では自分の決定は間違っていなかったと確信できました。出会った日本人は職業は違いますが、誰でもが優しくて、心が温かい人たちでした。</p>
+				<p>愛情たっぷりの両親のもとに生まれましたので、人間関係を大事にしています。自分の幸せが周りの人の幸せを含まれるということは生きがいになり、やりがいになりました。いつも笑顔で働いても、その裏では困っていること、苦労していること、悩んでいることがあるのではないでしょうか。将来、家族及び人々の心身の健康のために頑張りたいと思っています。専門学校の先生たちと友達のおかげで、将来の目標に向けて勉強も進んでいます。自分の将来と周りの人の将来も考えて精一杯頑張っていきます。</p>
+				
+				<div id="photoshop">
+					<img src="images/Japanses-friend.jpg" height="400px">
+					<img src="images/Japanese-friend2.jpg" height="400px">
+				</div>
+				
+
+				<h2>日本の道のりー関西で日本語を学び</h2>
+				<p>東京を比べると関西のほうが暮らし安いので日本語の勉強の最初の2年間は関西を選びました。</p>
+				<p>時間があるときに色んなところに行きました。それらはいい思い出です。</p>
+				<!-- kansai -->
+				<div class="photolink" id="travel">
+					<p>関西旅行</p>
+					<p><a class="link" href="kansai.html">Click here</a></p>
+				</div>
+	
+				<h2>日本の道のりー日本電子専門学校入学（AIシステム）</h2>
+				<h4>最初のコード</h4>
+				<pre>
+				class Sample{
+					public static void main(String[] args){
+					  System.out.println("Hello Java!!");
+					}
+				}
+				</pre>
+				<p>それから、、、</p>
+				<!-- My Articles -->
+				<div class="photolink" id="articles">
+					<p>My Articles</p>
+					<p><a class="link" href="articles.html">Click here</a></p>
+				</div>
+
+
+			</div>
+
+			
+		</div>
+	</div>
+	<h5><a href="#header1">トップへ戻る</a></h5>
+</body>
+<footer>
+	<p><small>
+			Copyright &copy; 2023 Nguyen Thuy Linh(22CA0209), All rights reserved.
+		</small>
+	</p>
+</footer>
+</html>
+
+				<!-- photoshop -->
+				<!-- <p id="photoshop-sub">Photoshopで居酒屋メニューを作成</p>
+				<div id="photoshop">
+					<img src="images/menu.png" width="200px">
+					<img src="images/menu2.png" width="200px">
+					<img src="images/menu3.png" width="200px">
+					<img src="images/menu4.png" width="200px"> -->
+					
+					

@@ -1,0 +1,354 @@
+/*import font*/
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600;700&family=Klee+One:wght@400;600&family=Yuji+Mai&family=Yuji+Syuku&display=swap');
+
+/* Setup All */
+body{
+    margin: 0px;
+    padding: 0px;
+}
+footer{
+    text-align: center;
+    background-color:  #cedbdb;
+    padding: 5px 0px;
+}
+.container{
+    display: flex;/*xuat hien tren 1 hang*/
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    align-items: center;
+    padding: 0px 0px;
+    border-bottom: 5px solid rgb(243, 243, 243);
+    /* https://hocwebchuan.com/tutorial/css3/display-flex.php */  
+}
+
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+    color: palevioletred;
+}
+h4{
+    background-color: #cedbdb;
+    display: block;
+    padding: 10px 10px;
+}
+h5{
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+    color: palevioletred;
+}
+#bookmark li a{
+    display: block;
+}
+#bookmark li a:hover{
+    color: #45a29e;
+    border-bottom: solid 3px #45a29d81;
+}
+li{
+    list-style: none;
+}
+#hightline{
+    font-weight: 500;
+}
+figure{
+    text-align: center;
+}
+#read-more{
+    border: solid 2px palevioletred;
+    padding: 10px;
+    margin-left: 20px;
+}
+/* --------------------------------------- header ---------------------------------*/
+#header1{
+    font-family: 'Klee One', cursive;
+}
+#header2{
+    font-family: 'Klee One', cursive;
+}
+
+/* logo */
+#logo img{
+    max-width: 50px;
+    height: auto;
+    margin-right: 100px;
+    margin-left: 30px;
+}
+
+/* menu */
+#menu{
+    display: flex;
+}
+#menu li{
+    position: relative;
+}
+#menu li a{
+    color: black;
+    font-size: larger;
+    display: block;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+#menu li a:hover{
+    color: #45a29e;
+}
+#menu ul.sub-menu{
+    position: absolute;
+    background-color: white;
+    padding-top: 28px;
+    padding-left: 0px;
+    /* list-style: none; */
+    width: 200px;
+    display: none;
+}
+#menu li:hover ul.sub-menu{
+    display: block;
+}
+#menu ul.sub-menu a{
+    padding: 5px 20px;
+    border-bottom: 1px solid #80808017;
+    left:0px;
+}
+#menu ul.sub-menu a:hover {
+    background-color: #e5faf9;
+    border-top: palevioletred;
+}
+#menu ul.sub-menu li:last-child a{
+    border-bottom: none;
+}
+#menu ul.sub-menu ul.sub-menu{
+    left: 200px;
+    top: 0px;
+    display: none;
+}
+#menu ul.sub-menu li:hover ul.sub-menu{
+    display: block;
+}
+#tab::after{
+    content: "  v";
+    -webkit-transform: rotate(90deg); /* Safari and Chrome */
+    -moz-transform: rotate(90deg);   /* Firefox */
+    -ms-transform: rotate(90deg);   /* IE 9 */
+    -o-transform: rotate(90deg);   /* Opera */
+    transform: rotate(90deg);
+}
+#tab_tab::after{
+    content: " ›"
+}
+/* --------------------------------------  quote -------------------------------- */
+#quote{
+    display: block;
+    text-align: center;
+    background-image: url("images/coding.png");
+    background-size: cover;
+    background-position-y: -80px;
+    padding: 150px;
+    margin: 0px;
+}
+#quote p{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.466); /* Nền với 30% opacity */
+    margin: 0px;
+    font-family: 'Yuji Syuku', serif;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+#quote h1{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.466); /* Nền với 30% opacity */
+    margin: 0px;
+    font-family: 'DynaPuff', cursive;
+    font-size: 60px;
+    /* mix-blend-mode: screen; */
+    padding-top: 20px;
+}
+/* -------------------------------------- content -------------------------------- */
+.navigation {
+    position: fixed;
+    background-color: #fff;
+    top: 150px;
+    height: 25%;
+    display: box;
+    display: -webkit-box;
+    display: -moz-box;
+    box-align: center;
+    -Webkit-box-align: center;
+    -Moz-box-align: center;
+    padding-right: 20px;
+    border: 5px solid rgb(243, 243, 243);
+    
+}
+.navigation li a{
+    color: black;
+    text-decoration: none;
+}
+.navigation li a:hover{
+    color: #45a29e;
+}
+.navigation ul{
+    padding-left: 10px;
+}
+#content{
+    font-family: 'Klee One', cursive;
+    margin: 0px 8px; 
+    text-align: justify;
+}
+#content >img{
+    float: left;
+    border-style: solid;
+    border-width: 4px;
+    border-top-color: rgb(255,206,236);
+    border-bottom-color:#99bce8;
+    border-left-color: #7acdfd;
+    border-right-color: palevioletred;
+    padding: 10px;
+    margin: 10px 20px 10px 130px ;    
+}
+#content h1{
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+    margin:10px 0px;
+    border-top-style: solid;
+    border-width: 4px;
+    border-top-color: palevioletred;
+}
+#content ol{
+    display: block;
+    margin-left: 300px;
+    padding-left: 20px;
+}
+#content li{
+    font-size: medium;
+}
+#content li a{
+    text-decoration: none;
+    font-style: normal;
+}
+#intro{
+    padding: 40px 80px 80px;
+    margin-bottom: 20px;
+    margin-left: 120px;
+    border-style: dotted;
+    border-top-color: rgb(255,206,236);
+    border-bottom-color:#99bce8;
+    border-left-color: #7acdfd;
+    border-right-color: palevioletred;
+    border-width: 2px;
+}
+#content blockquote{
+    padding-left: 10px;
+    border-left-style: solid;
+    border-width: 4px;
+    border-color: palevioletred;
+}
+#skill{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#title td{
+    color: palevioletred;
+    font-size: larger;
+    font-weight: bold;
+}
+.main-content{
+    float: left;
+    width: 79.5%;
+    margin: 20px 40px;
+    padding: 0px 60px 10px 60px;
+    border: solid 2px palevioletred;
+}
+#index{
+    margin: 0px 40px 20px 120px;
+}
+.main-content p{
+    /* text-indent: 10px; */
+    padding-bottom: 10px;
+}
+#video,#subcript{
+    display: flex;
+    justify-content: space-around;
+}
+#fanpage{
+    display: block;
+    margin-left: 300px;
+}
+.photolink{
+    display: block;
+    text-align: center;
+}
+.photolink p{
+    margin:0px;
+    text-shadow: 5px 2px 4px grey  
+}
+.photolink p a{
+    background-color:rgba(206, 85, 85, 0.404);
+    color: rgb(252, 252, 252);
+    font-size: 30px;
+    margin-top: 0px;
+    padding: 10px;
+    border-radius: 5%;
+    border-color: aliceblue;
+    /* border-width: thick;出来ない */
+}
+.photolink p:first-child{
+    color: rgb(252, 252, 252);
+    font-size: 100px;
+}
+#travel{
+    background-image: url("images/kansai2.jpg");
+    background-size: cover;
+    background-position-y: -200px;
+    padding: 110px 0px;
+}
+#articles{
+    background-image: url("images/coding.jpg");
+    background-size: cover;
+    background-position-y: -200px;
+    padding: 110px 0px;
+}
+#japanese{
+    background-image: url("images/ryugaku.jpg");
+    background-size: cover;
+    background-position-y: -150px;
+    padding: 110px 0px;
+}
+#japanese p{
+    display: block;
+    margin-top: 130px;
+    font-size: 50px;
+}
+#support{
+    background-image: url("images/smile.jpg");
+    background-size: cover;
+    background-position-y: -250px;
+    padding: 110px 0px;
+}
+#support p{
+    display: block;
+    background-color: rgba(28, 30, 150, 0.137);
+    margin-top: 130px;
+    font-size: 50px;
+}
+#sp{
+    display: flex;
+    justify-content: center;
+}
+#photoshop{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 20px;
+}
+#photoshop-sub{
+    display: block;
+    align-content: center;
+    text-align: center;
+}

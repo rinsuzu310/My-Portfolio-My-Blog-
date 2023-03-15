@@ -1,0 +1,59 @@
+/*--------------------------------------travel.html-------------------------------*/
+#photolink2{
+    display: block;
+    text-align: center;
+    background-image: url("images/japan.jpg");
+    background-size: cover;
+    background-position-y: -80px;
+    padding: 0px;
+    margin: 0px;
+}
+#photolink2 p{
+    color: rgb(252, 252, 252);
+    font-family: 'Yuji Mai', serif;
+    font-size: 50px;
+    font-weight: 800;
+    text-shadow: 6px 2px 4px grey;
+    background: rgba(0, 0, 0, 0.303);
+    padding: 150px 0px;
+    margin: 0px;
+}
+#intro2 p{
+    display: block;
+    margin: 40px;
+    height: 50px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: palevioletred;
+    font-size: 50px;
+    font-weight: 900;
+}
+#main-list a{
+    text-align: center;
+    font-family: 'Yuji Mai', serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: palevioletred;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    height: fit-content;
+    text-decoration: none;
+}
+#main-list tr td:last-child{
+    text-align: center;
+}
+table, th, td{
+    border:1px solid black;
+}
+#main-list table{
+    /* border-collapse:collapse; */
+    margin-left: auto; 
+    margin-right: auto;
+    width: 1200px; 
+    height: 450px;
+    
+}
+table td:nth-of-type(3){
+    padding: 8px;
+}

@@ -1,0 +1,67 @@
+/* -------------------------------------kansai.html------------------------------ */
+#bookmark{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0px;
+    margin: 30px 0px;
+}
+#bookmark li a{
+    display: block;
+    padding: 10px 30px;
+    color: #0b0c10;
+    font-size: 30px;
+}
+h1{
+    margin: 0px ;
+    padding-bottom: 20px;
+}
+details ul li a{
+    font-size: 20px;
+}
+details ul li{
+    border-bottom: solid 1px blue;
+}
+.main-content img{
+    display: block;
+    margin: auto;
+    padding: auto;
+}
+#nara{
+    display: flex;
+    justify-content: space-around;
+}
+#osaka{
+    display: flex;
+    justify-content: space-around;
+}
+#kyoto{
+    display: flex;
+    justify-content: space-around;
+}
+#kobe{
+    display: flex;
+    justify-content: space-around;
+}
+#info{
+    display: flex;
+    justify-content: space-around;
+}
+#info table{
+    border-color: #fff;
+    width: 500px; 
+    height: 450px;
+}
+#info table th{
+    background-color: #dee0e4;
+}
+#info table td{
+    padding-left: 8px;
+}
+#info table th{
+    width: 80px;
+    text-align: center;
+}
+iframe{
+    width: 500px;
+}
